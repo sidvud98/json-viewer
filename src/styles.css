@@ -1,0 +1,46 @@
+.App {
+  font-family: sans-serif;
+}
+
+.jsonBody {
+  display: flex;
+  flex-direction: column;
+  padding-left: 15px;
+  color: initial;
+}
+
+.jsonContainer {
+  color: initial;
+  margin: 10px;
+}
+
+.jsonPair {
+  display: flex;
+  padding-bottom: 2px;
+}
+
+.jsonKey {
+  padding-right: 5px;
+}
+
+.jsonPair>.jsonValue {
+  padding-left: 5px;
+  color: green;
+}
+
+.collapse-text {
+  font-weight: bold;
+  padding-right: 5px;
+}
+
+.foldToggle {
+  padding: 2px 7px;
+  height: 40px;
+  width: 40px;
+  border-radius: 5px;
+  border: 1px solid black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  display: inline;
+}

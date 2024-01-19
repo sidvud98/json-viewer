@@ -1,25 +1,12 @@
-import logo from './logo.svg';
-import './App.css';
+import "./styles.css";
+import JSONViewer from "./JsonViewer/JSONViewer";
+import inputJSON from './input.json'
 
-function App() {
+// A JSON value can be an object, array, number, string, true, false, or null.
+export default function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <JSONViewer inpJson={inputJSON} />
     </div>
   );
 }
-
-export default App;
